@@ -28,7 +28,7 @@ class ConcreteSubject(Subject):
     def dosomething(self):
         print("I am doing something which will change my state ")
         self._state = "subject state has been changed"
-        print("notifying observers")
+        print("notifying observers.observers will update their states")
         self.notifyObservers()
             
             
